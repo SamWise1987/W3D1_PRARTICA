@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'feather'; /* Dai un nome al tuo font */
+    src: url('./assets/fa-regular-400.woff2') format('woff2'),
+         url('./assets/feather.ttf') format('truetype'); /* Percorsi ai file del font */
+    font-weight: normal;
+    font-style: normal;
+}
+
+.color--hero{
+ background-color: #7756F8;
+ background: #7756F8 ;
+}
+
+.card-course {
+    width: 140px; 
+    font-size: 0.8rem; /
+  }
+  .card-course .card-header {
+    background-color: #d63384; 
+    color: white; 
+  }
+  .card-course .card-body {
+    padding: 0.5rem; 
+  }
+  .card-course .card-footer {
+    font-size: 0.7rem; 
+    background-color: white; 
+  }
+
+  
+  .custom-green {
+    background-color: #15CB97;
+}
+
+.custom-white {
+    background-color: white;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 50px;
+  width: 50px;
+  outline: black;
+  background-size: 100%, 100%;
+  background-color: black;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+/* .carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: blanchedalmond;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: red;
+} */
+
+.color--span{
+  color: yellow;
+}
+
+.text-weight-bold {
+  font-weight: bold;
+}
+
+.card--class{
+  width: 18rem;
+}
